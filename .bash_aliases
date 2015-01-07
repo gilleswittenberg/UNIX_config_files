@@ -17,7 +17,10 @@ alias c='cat'
 alias d='diff'
 alias grepr='grep -ri'
 alias cl='clear'
+
+# Grunt
 alias gr='grunt'
+alias grw='grunt watch'
 
 # Git
 alias g='git'
