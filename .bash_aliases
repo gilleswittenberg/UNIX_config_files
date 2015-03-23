@@ -22,6 +22,9 @@ alias cl='clear'
 alias gr='grunt'
 alias grw='grunt watch'
 
+# Gulp
+alias gp='gulp'
+
 # Git
 alias g='git'
 alias gb='g b'
