@@ -39,9 +39,3 @@ alias ga='g a'
 # Node
 alias n="node"
 alias nd="nodemon --debug"
-
-# Vagrant
-alias vup='vagrant up'
-alias vupnp='vagrant up --no-provision'
-alias vhalt='vagrant halt'
-alias vssh='vagrant ssh'
