@@ -10,6 +10,7 @@ alias ...="cd ../../"
 alias ....="cd ../../../"
 alias .....="cd ../../../../"
 alias ......="cd ../../../../../"
+alias t='touch'
 alias e='exit'
 alias :q='exit'
 alias v='vi'
