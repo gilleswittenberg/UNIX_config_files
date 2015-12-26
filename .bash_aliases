@@ -36,6 +36,9 @@ alias gd='g d'
 alias gg='gb && g s && gl'
 alias ga='g a'
 
+# Docker
+alias dk="docker"
+
 # Node
 alias n="node"
 alias nd="nodemon --debug"
