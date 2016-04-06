@@ -15,7 +15,6 @@ alias e='exit'
 alias :q='exit'
 alias v='vi'
 alias c='cat'
-alias d='diff'
 alias grepr='grep -ri'
 alias cl='clear'
 
@@ -37,7 +36,8 @@ alias gg='gb && g s && gl'
 alias ga='g a'
 
 # Docker
-alias dk="docker"
+alias d="docker"
+alias dm="docker-machine"
 
 # Node
 alias n="node"
