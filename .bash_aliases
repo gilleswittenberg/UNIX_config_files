@@ -18,10 +18,6 @@ alias c='cat'
 alias grepr='grep -ri'
 alias cl='clear'
 
-# Grunt
-alias gr='grunt'
-alias grw='grunt watch'
-
 # Gulp
 alias gp='gulp'
 
@@ -42,3 +38,9 @@ alias dm="docker-machine"
 # Node
 alias n="node"
 alias nd="nodemon --debug"
+
+# http-server `npm install -g http-server`
+alias s="http-server"
+
+#imagemagick `brew install imagemagick
+alias id='identify'
