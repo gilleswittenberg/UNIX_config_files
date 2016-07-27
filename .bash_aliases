@@ -42,5 +42,5 @@ alias nd="nodemon --debug"
 # http-server `npm install -g http-server`
 alias s="http-server"
 
-#imagemagick `brew install imagemagick
+#imagemagick `brew install imagemagick`
 alias id='identify'
