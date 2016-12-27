@@ -33,11 +33,17 @@ alias ga='g a'
 
 # Docker
 alias d="docker"
+alias drm="docker ps -a -q -f status=exited | xargs docker rm"
+alias drmi="docker images --quiet --filter \"dangling=true\" | xargs docker rmi"
 alias dm="docker-machine"
+alias dc="docker-compose"
+alias dcl="rm ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/Docker.qcow2"
 
 # Node
 alias n="node"
 alias nd="nodemon --debug"
+alias nr="npm run"
+alias nt="npm test"
 
 # http-server `npm install -g http-server`
 alias s="http-server"
