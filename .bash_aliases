@@ -33,7 +33,13 @@ alias ga='g a'
 
 # Docker
 alias d="docker"
+alias di="docker images"
+alias dl="docker logs"
+alias dps="docker ps"
+alias dpsa="docker ps -a"
+alias dstop="docker ps -a -q -f status=running | xargs docker stop"
 alias drm="docker ps -a -q -f status=exited | xargs docker rm"
+alias dstrm="dstop && drm"
 alias drmi="docker images --quiet --filter \"dangling=true\" | xargs docker rmi"
 alias dm="docker-machine"
 alias dc="docker-compose"
@@ -44,6 +50,7 @@ alias n="node"
 alias nd="nodemon --debug"
 alias nr="npm run"
 alias nt="npm test"
+alias nl="npm run eslint"
 
 # http-server `npm install -g http-server`
 alias s="http-server"
