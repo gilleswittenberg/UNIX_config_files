@@ -40,7 +40,7 @@
 	rbm = rebase master
 	rbc = rebase --continue
 	rba = rebase --abort
-	tl = tag -l
+	tl = tag -l -n
 	st = stash
 	stl = stash list
 	stc = stash clear
