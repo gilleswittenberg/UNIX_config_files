@@ -50,7 +50,7 @@ alias n="node"
 alias nd="nodemon --debug"
 alias nr="npm run"
 alias nt="npm test"
-alias nl="npm run eslint"
+alias nl="npm run lint"
 
 # http-server `npm install -g http-server`
 alias s="http-server"
