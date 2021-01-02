@@ -1,13 +1,13 @@
 [user]
 	name = Gilles Wittenberg
-	email = git@gilleswittenberg.com
+	email = mail@gilleswittenberg.com
 [alias]
 	s = status
 	l = log -10 --abbrev-commit --pretty=oneline --decorate=full --graph
 	ll = log --pretty=oneline --decorate=full --graph
 	lol = log -10 --pretty=oneline
 	w = whatchanged
-	d = diff 
+	d = diff
 	dh = diff HEAD^
 	dhh = diff HEAD^^
 	de = diff --ignore-space-at-eol
@@ -22,6 +22,7 @@
 	com = checkout master
 	cod = checkout dev
 	cof = checkout --
+	cot = checkout --track
 	a = add --all :/
 	au = add -u
 	cm = commit -m
@@ -53,6 +54,7 @@
 	p = push
 	pf = push -f
 	po = push origin
+	poh = push origin HEAD
 	ph = push homeserver
 	pfo = push -f origin
 	pom = push origin master
@@ -63,6 +65,7 @@
 	plom = pull origin master
 	rmu = remote update
 	rmr = rm -r
+	pro = remote prune origin
 [core]
 	excludesfile = ~/.gitignore
 	whitespace = indent-with-non-tab,trailing-space,cr-at-eol,blank-at-eof
@@ -93,3 +96,5 @@
 	tool = vimdiff
 [http]
 	sslVerify = false
+[credential]
+	helper = osxkeychain
