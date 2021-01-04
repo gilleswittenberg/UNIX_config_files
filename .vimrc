@@ -17,11 +17,11 @@ set secure
 
 " syntax highlight .less as css files
 au BufNewFile,BufRead *.less set filetype=less
-" syntax highlight .less as css files
+" syntax highlight .scss as css files
 au BufRead,BufNewFile *.scss set filetype=scss
 
-" remove trailing whitespace on save (php, js, css, less)
-"autocmd BufWritePre *[.php|.js|.css|.less|.json] :%s/\s\+$//e
+" remove trailing whitespace on save
+"autocmd BufWritePre *[.php|.js|.ts|.css|.less|.scss|.json] :%s/\s\+$//e
 
 " map f2 to toggle paste for CMD+V
 nnoremap <F2> :set invpaste paste?<CR>
