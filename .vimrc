@@ -35,8 +35,5 @@ nnoremap <F3> :set hlsearch!<CR>
 nmap <F4> :w<CR>:make<CR>:cw<CR>
 filetype plugin on
 
-" map f5 to php -l
-nmap <F5> :w !php -l<CR>
-
 " set plugin localvimrc not to ask for permission
 let g:localvimrc_ask=0
